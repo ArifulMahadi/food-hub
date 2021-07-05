@@ -1,0 +1,29 @@
+.color-one{
+    color:rgb(4, 27, 230)
+}
+h1{
+    font-size:30px;
+}
+section{
+    display: flex;
+}
+.width-one{
+    width: 25%;
+    padding: 60px 40px;;
+}
+.width-one img{
+    width: 100%;
+    padding-right: 80px;
+}
+.width-one p{
+    text-align: justify;
+    color: rgb(86, 164, 243);
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(black,orange);
+    color: pink;
+    font-size:20px;
+   padding: 15px 40px;
+   border-radius: 35px;
+}
