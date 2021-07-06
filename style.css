@@ -2,35 +2,54 @@
     color:rgb(4, 27, 230)
 }
 h1{
-    font-size:30px;
+    font-size:40px;
 }
 section{
     display: flex;
+    margin-bottom: 50px;
 }
 .width-one{
-    width: 25%;
-    padding: 60px 40px;
-    border: 10px none;
-}
-.width-one img{
-    width: 100%;
-    padding-right: 80px;
-}
-.width-one p{
+    width:30%;
+    padding-left: 90px;
+    padding-top: 60px;
     text-align: justify;
-    color: rgb(86, 164, 243);
+}
+.width-two{
+    width:50%;
+    padding-left: 80px;
+}
+.width-twoo{
+    padding-right: 40px; 
+}
+.width-three{
+    width: 20%;
+    text-align:center;
+    text-align: justify;
+    padding-top: 90px;
+    padding-right: 60px;
+    padding-left: 60px;
+
 }
 .link-button{
     text-decoration: none;
+    text-align: justify;
     background-image: linear-gradient(black,orange);
     color: pink;
     font-size:20px;
-   padding: 15px 40px;
    border-radius: 35px;
+   padding: 10px 30px;
 }
-div{
+.width-four{
+    background-color: white;
+    text-align: justify;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+.width-four h2{
     text-align: center;
-}
+}   
 .top-banner{
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
@@ -38,4 +57,41 @@ div{
 .top-image{
     background-image:url(images/shapes/Frame\ 58.jpg) ;
     background-repeat: no-repeat;
+}
+.container{
+width:30%;
+background-color:wheat;
+border-radius: 20px;
+box-shadow: 10px 10px 40px rgb(76, 76, 204);
+margin-left: 30px;
+}
+.container img{
+    width: 90%;
+    border-radius: 20px;
+    padding-left:20px;
+    padding-top: 20px;
+}
+.container p{
+    text-align: justify;
+    padding-left: 15px;
+    width: 60%;
+    padding-bottom: 20px;
+}
+.container h2{
+    padding-left: 15px;
+}
+.big-cont{
+    display: flex;
+}
+.last-line{
+    text-align: center;
+    background-color: rgba(85, 141, 247, 0.685);
+    padding-top: 5px;
+}
+.last-line p{
+    color: rgba(134, 121, 121, 0.89);
+    padding-bottom: 20px;
+}
+#orange-color{
+    color: orange;
 }
