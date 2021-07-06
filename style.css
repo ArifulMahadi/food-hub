@@ -9,7 +9,8 @@ section{
 }
 .width-one{
     width: 25%;
-    padding: 60px 40px;;
+    padding: 60px 40px;
+    border: 10px none;
 }
 .width-one img{
     width: 100%;
@@ -26,4 +27,15 @@ section{
     font-size:20px;
    padding: 15px 40px;
    border-radius: 35px;
+}
+div{
+    text-align: center;
+}
+.top-banner{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
+.top-image{
+    background-image:url(images/shapes/Frame\ 58.jpg) ;
+    background-repeat: no-repeat;
 }
